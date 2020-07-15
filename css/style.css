@@ -8,3 +8,33 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: inline-block;
+    width: 40%;
+    height: 55%;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+
+.rgb {
+    display: inline-block;
+    width: 100%;
+    height: 25%;
+    background-color: blue;
+}
+
+.cores {
+    width: 40%;
+    height: 40%;
+    background-color: bisque;
+}
