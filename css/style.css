@@ -39,5 +39,6 @@ body {
     height: 150px;
     right: 15.3%;
     top: 25.8%;
-    background-color: bisque;
+    border: 1px solid #000;
+    transition: background 100ms;
 }
