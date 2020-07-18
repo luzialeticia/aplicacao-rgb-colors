@@ -12,18 +12,18 @@
             <div class="rgb">
                 <div class="red">
                     <p>(R) Vermelho</p>
-                    <input type="range" id="red" name="red" min="0" max="255">
-                    <input type="text" id="redText" name="redText" disabled>
+                    <div><input type="range" id="red" name="red" min="0" max="255"></div>
+                    <div><input type="text" id="redText" name="redText" readonly disabled></div>
                 </div>
                 <div class="green">
                     <p>(G) Verde</p>
-                    <input type="range" id="green" name="green" min="0" max="255">
-                    <input type="text" id="greenText" name="greenText" disabled>
+                    <div><input type="range" id="green" name="green" min="0" max="255"></div>
+                    <div><input type="text" id="greenText" name="greenText" readonly disabled></div>
                 </div>
                 <div class="blue">
-                    <div><p>(B) Blue</p></div>
+                    <p>(B) Azul</p>
                     <div><input type="range" id="blue" name="blue" min="0" max="255"></div>
-                    <div><input type="text" id="blueText" name="blueText" disabled></div>
+                    <div><input type="text" id="blueText" name="blueText" readonly disabled></div>
                 </div>
             </div>
 
@@ -31,6 +31,6 @@
         </div>
     </div>
 
-<script src="js/script.js"></script>
+<script src="js/script.js" defer></script>
 </body>
 </html>

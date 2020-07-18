@@ -7,8 +7,8 @@
 body {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
-
 .container {
     width: 100vw;
     height: 100vh;
@@ -18,24 +18,32 @@ body {
 }
 
 .box {
-    display: inline-block;
-    width: 40%;
+    display: flex;
+    position: relative;
+    width: 50%;
     height: 55%;
-    background-color: aqua;
-    align-items: center;
-    justify-content: center;
 }
 
 .rgb {
-    display: inline-block;
-    position: relative;
-    width: 500px;
+    position: absolute;
+    display: list-item;
+    width: 46%;
     margin: auto;
-    height: 400px;
-    background-color: blue;
+    height: 100%;
+    text-align: center;
+    padding-top: 3%;
 }
 
-.blue {
+.cores {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 15.3%;
+    top: 25.8%;
+    background-color: bisque;
+}
+
+/*.blue {
     float: left;
     background-color: blueviolet;
     width: 500px;
@@ -44,7 +52,7 @@ body {
     justify-content: space-between;
     padding-left: 2%;
     padding-right: 2%;
-}
+}*/
 
 
 
@@ -52,9 +60,3 @@ body {
     position: relative;
     left: 50%;
 }*/
-
-.cores {
-    width: 40%;
-    height: 40%;
-    background-color: bisque;
-}
