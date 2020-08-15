@@ -9,6 +9,13 @@ body {
     padding: 0;
     text-align: center;
 }
+
+h1 {
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -22,6 +29,7 @@ body {
     position: relative;
     width: 50%;
     height: 55%;
+    background-color: red;
 }
 
 .rgb {
@@ -35,6 +43,7 @@ body {
 
 .value {
     width: 50px;
+    text-align: center;
 }
 
 .cores {
