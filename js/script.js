@@ -1,7 +1,7 @@
 let input = document.querySelectorAll(".range");
 
 for (let i = 0; i < input.length; i++) {
-    input[i].addEventListener("input", function(){
+    input[i].addEventListener("input", () => {
         const red = document.getElementById("red").value,
               green = document.getElementById("green").value,
               blue = document.getElementById("blue").value;
@@ -12,9 +12,10 @@ for (let i = 0; i < input.length; i++) {
 }
 
 for (let i = 0; i < input.length; i++) {
-    input[i].addEventListener("input", function() {
+    input[i].addEventListener("input", () => {
         document.querySelector('#redText').value = red.value;
         document.querySelector('#greenText').value = green.value;
         document.querySelector('#blueText').value = blue.value;
+        document.querySelector("#rgbValue").value = `${red.value}, ${green.value}, ${blue.value}`
     });
 }
