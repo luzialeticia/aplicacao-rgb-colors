@@ -7,7 +7,7 @@ for (let i = 0; i < input.length; i++) {
               blue = document.getElementById("blue").value;
                 
         const cores = document.getElementById("colors");
-        cores.style.background = "rgb(" + red + ", " + green + ", " + blue + ")";
+        cores.style.background = "rgba(" + red + ", " + green + ", " + blue + ")";
     });
 }
 
