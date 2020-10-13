@@ -50,21 +50,6 @@ h1 {
     text-align: center;
 }
 
-.result-rgb {
-    display: flex;
-    position: relative;
-    right: 10%;
-    justify-content: center;
-    align-items: center;
-}
-
-.rgb-value {
-    position: absolute;
-    margin: auto;
-    top: 60%;
-    right: 3%;
-}
-
 .cores {
     position: absolute;
     width: 150px;
