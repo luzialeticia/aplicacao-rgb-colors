@@ -41,6 +41,10 @@ h1 {
     padding-top: 3%;
 }
 
+.range-green, .range-blue {
+    margin-top: 1.5em;
+}
+
 .value {
     width: 50px;
     text-align: center;

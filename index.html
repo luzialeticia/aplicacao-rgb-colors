@@ -11,26 +11,26 @@
         
         <h1>RGB Color Selector</h1>
 
-        <div class="box">
-            <div class="rgb">
+        <div class="box row">
+            <div class="rgb col-sm">
                 <div class="red">
                     <p>(R) Vermelho</p>
                     <div><input type="range" id="red" class="range" name="red" min="0" max="255" step="1"></div>
                     <div><input type="text" id="redText" name="redText" class="value" readonly disabled></div>
                 </div>
-                <div class="green">
+                <div class="range-green">
                     <p>(G) Verde</p>
                     <div><input type="range" id="green" class="range" name="green" min="0" max="255" step="1"></div>
                     <div><input type="text" id="greenText" name="greenText" class="value" readonly disabled></div>
                 </div>
                 <div class="blue">
-                    <p>(B) Azul</p>
+                    <p class="range-blue">(B) Azul</p>
                     <div><input type="range" id="blue" class="range" name="blue" min="0" max="255" step="1"></div>
                     <div><input type="text" id="blueText" name="blueText" class="value" readonly disabled></div>
                 </div>
             </div>
 
-            <div class="result-rgb">
+            <div class="result-rgb col-sm">
                 <div id="colors" class="cores"></div>
                 <div><input type="text" id="rgbValue" name="rgbValue" class="rgb-value" readonly></div>
             </div>
