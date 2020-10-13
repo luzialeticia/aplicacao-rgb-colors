@@ -1,4 +1,4 @@
-let input = document.querySelectorAll(".range");
+const input = document.querySelectorAll(".range");
 
 for (let i = 0; i < input.length; i++) {
     input[i].addEventListener("input", () => {
