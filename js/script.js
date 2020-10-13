@@ -16,6 +16,6 @@ for (let i = 0; i < input.length; i++) {
         document.querySelector('#redText').value = red.value;
         document.querySelector('#greenText').value = green.value;
         document.querySelector('#blueText').value = blue.value;
-        document.querySelector("#rgbValue").value = `${red.value}, ${green.value}, ${blue.value}`
+        document.querySelector("#rgbValue").value = `rgb(${red.value}, ${green.value}, ${blue.value})`
     });
 }
